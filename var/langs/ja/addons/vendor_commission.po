@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+
+msgctxt "Addons::name::vendor_commission"
+msgid "Vendor commission"
+msgstr "販売手数料"
+
+msgctxt "Addons::description::vendor_commission"
+msgid "Allows you to take commission from vendors on every sale and restrict vendors' access to certain categories."
+msgstr "注文毎に出品者から徴収する販売手数料を設定します。また、出品者毎に出品可能なカテゴリーを制御できます。"
+
+msgctxt "SettingsOptions::vendor_commission::commissions_header"
+msgid "Commissions"
+msgstr "販売手数料"
+
+msgctxt "SettingsOptions::vendor_commission::include_shipping"
+msgid "Include shipping cost in vendors commission"
+msgstr "販売手数料の計算対象に送料を含める"
+
+msgctxt "SettingsOptions::vendor_commission::include_payment_surcharge"
+msgid "Take payment surcharge from vendors"
+msgstr "支払手数料をお客様ではなく出品者から徴収する"
+
+msgctxt "SettingsOptions::vendor_commission::display_header"
+msgid "Display"
+msgstr "表示"
+
+msgctxt "SettingsOptions::vendor_commission::show_apply_for_vendor_link"
+msgid "Show \"Apply for a vendor\" link in \"My account menu\""
+msgstr "「マイアカウント」ブロックに「このサイトに出品する」リンクを表示"
+
+msgctxt "SettingsTooltips::vendor_commission::include_payment_surcharge"
+msgid "If enabled, a customer will not be able to see payment surcharge and it will not be applied to the order total."
+msgstr "チェックすると支払手数料はお客様ではなく出品者から徴収されます。お客様には支払手数料は表示されません。"
+
+msgctxt "Languages::vendor_commission.category_is_empty"
+msgid "Please specify a category."
+msgstr "カテゴリーを指定してください。"
+
+msgctxt "Languages::vendor_commission.vendor_commission"
+msgid "Vendor commission"
+msgstr "販売手数料"
+
+msgctxt "Languages::vendor_commission.uninstall_text"
+msgid "<strong>Apply for a vendor account</strong> link has been removed from the <strong>My account</strong> block. Please add a link manually in the <a href=\"[menu_href]\" target=\"_blank\">Menu</a> or <a href=\"[layouts_href]\" target=\"_blank\">Layouts</a> section. The link must lead to <strong>dispatch=companies.apply_for_vendor</strong>"
+msgstr "<strong>このサイトに出品する</strong> リンクが「マイアカウント」ブロックから削除されました。再度 <strong>このサイトに出品する</strong> リンクを表示するには、「販売手数料」アドオンを有効化し、 <strong>「マイアカウント」ブロックに「このサイトに出品する」リンクを表示 </strong> をチェックしてください。"
+
+msgctxt "Languages::vendor_commission.upgrade_notes_title"
+msgid "Vendor commission changes"
+msgstr "販売手数料に関する変更について"
+
+msgctxt "Languages::vendor_commission.upgrade_notes_text"
+msgid "We have moved the whole vendor commission functionality to an add-on called <strong>Vendor commission</strong>. Now the vendor commission settings <strong>Take payment surcharge from vendors</strong> and <strong>Include shipping cost in vendors commission</strong> are added to your store by this add-on. Multi-Vendor has the Vendor commission add-on installed and enabled out of the box."
+msgstr "出品者から徴収する販売手数料に関する機能を <strong>「販売手数料」アドオン</strong> として独立させました。<strong>「販売手数料」アドオン</strong> は自動で有効化され、販売手数料の計算対象に送料を含めたり、支払手数料をお客様からではなく出品者から徴収できるよう設定できます。"
+
+msgctxt "Languages::vendor_commission.upgrade_notes_apply_for_vendor_title"
+msgid "Apply for a Vendor Account link is now a part of the Vendor Commissions add-on"
+msgstr "「このサイトに出品する」リンクは「販売手数料」アドオンの設定項目になりました"
+
+msgctxt "Languages::vendor_commission.upgrade_notes_apply_for_vendor_text"
+msgid "The <strong>Show \"Apply for a vendor\" link in \"My account menu\"</strong> checkbox is available under <strong>Add-ons → Manage add-ons → Vendor commissions</strong>. It determnines whether to display the vendor application link to registered customers in the <strong>My account</strong> menu.<br /><br />If you disable or delete the <strong>Vendor Commissions</strong> add-on, you'll have to add the application link manually in the <a href=\"[menu_href]\" target=\"_blank\">Menu</a> or <a href=\"[layouts_href]\" target=\"_blank\">Layouts</a> section. The link must lead to <strong>dispatch=companies.apply_for_vendor</strong>"
+msgstr "「マイアカウント」ブロック内の「このサイトに出品する」リンクは、<strong>アドオン → アドオンの管理 → 販売手数料</strong> から表示・非表示を指定できるようになりました。「販売手数料」アドオンを無効化したりアンインストールした場合は「このサイトに出品する」リンクが表示されなくなります。ご注意ください。"
