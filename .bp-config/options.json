@@ -1,4 +1,4 @@
 {
-  "PHP_EXTENSIONS": [ "bz2", "zlib", "curl", "mcrypt", "mbstring", "mysql", "pdo", "pdo_mysql" ]
+    "PHP_EXTENSIONS": [ "bz2", "zlib", "curl", "mcrypt", "mbstring", "mysql", "pdo", "pdo_mysql", "fileinfo", "ftp", "zip" ]
 }
 

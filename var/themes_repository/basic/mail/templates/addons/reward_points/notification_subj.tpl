@@ -1,1 +1,0 @@
-{$company_data.company_name nofilter}: {$reason.amount} {__("points")} {if $reason.action == 'A'}{__("reward_points_subj_added_to")}{elseif $reason.action == 'S'}{__("reward_points_subj_subtracted_from")}{/if}

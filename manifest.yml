@@ -1,8 +1,8 @@
 applications:
 - path: .
-  memory: 128M
+  memory: 2048M
   instances: 1
   domain: mybluemix.net
-  name: cschart-azaz
-  host: cschart-azaz
+  name: cs-cart-azaz
+  host: cs-cart-azaz
   disk_quota: 1024M
